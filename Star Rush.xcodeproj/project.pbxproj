@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9838E4A21B27D4040076ED3A /* Upnow.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9838E4A11B27D4030076ED3A /* Upnow.caf */; };
+		9838E4A41B28A9060076ED3A /* LoopMenuUpnow.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9838E4A31B28A9060076ED3A /* LoopMenuUpnow.caf */; };
+		9838E4A61B292BC00076ED3A /* MenuStarRush.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9838E4A51B292BC00076ED3A /* MenuStarRush.caf */; };
+		9838E4E71B2C88340076ED3A /* HelpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9838E4E61B2C88340076ED3A /* HelpScene.swift */; };
+		98A74D141B434B8000DF87DB /* LightningAnimation.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 98A74D131B434B8000DF87DB /* LightningAnimation.atlas */; };
+		98A74D181B43571500DF87DB /* HowToPlayInstructions.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 98A74D171B43571500DF87DB /* HowToPlayInstructions.atlas */; };
+		98BEE6081B17712B0076A376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEE6071B17712B0076A376 /* AppDelegate.swift */; };
+		98BEE60A1B17712B0076A376 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 98BEE6091B17712B0076A376 /* GameScene.sks */; };
+		98BEE60C1B17712B0076A376 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEE60B1B17712B0076A376 /* GameScene.swift */; };
+		98BEE60E1B17712B0076A376 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEE60D1B17712B0076A376 /* GameViewController.swift */; };
+		98BEE6111B17712B0076A376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BEE60F1B17712B0076A376 /* Main.storyboard */; };
+		98BEE6131B17712B0076A376 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BEE6121B17712B0076A376 /* Images.xcassets */; };
+		98BEE6161B17712B0076A376 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BEE6141B17712B0076A376 /* LaunchScreen.xib */; };
+		98BEE6221B17712B0076A376 /* Star_RushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEE6211B17712B0076A376 /* Star_RushTests.swift */; };
+		98BEE62C1B1771E00076A376 /* InGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEE62B1B1771E00076A376 /* InGameScene.swift */; };
+		98BEE62E1B1771F60076A376 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEE62D1B1771F60076A376 /* MainMenu.swift */; };
+		98CC78621B9B98EC006FF54D /* BlackholeAnimations.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 98CC78611B9B98EC006FF54D /* BlackholeAnimations.atlas */; };
+		98CC78641B9B98F4006FF54D /* BlackholeAnimationsIphone6Plus in Resources */ = {isa = PBXBuildFile; fileRef = 98CC78631B9B98F4006FF54D /* BlackholeAnimationsIphone6Plus */; };
+		98CC78661B9B98FE006FF54D /* BlackholeHorizontalAnimation.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 98CC78651B9B98FE006FF54D /* BlackholeHorizontalAnimation.atlas */; };
+		98CC78681B9B9907006FF54D /* BlackholeHorizontalAnimationIphone6Plus in Resources */ = {isa = PBXBuildFile; fileRef = 98CC78671B9B9907006FF54D /* BlackholeHorizontalAnimationIphone6Plus */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98BEE61C1B17712B0076A376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98BEE5FA1B17712B0076A376 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98BEE6011B17712B0076A376;
+			remoteInfo = "Star Rush";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9838E4A11B27D4030076ED3A /* Upnow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Upnow.caf; sourceTree = "<group>"; };
+		9838E4A31B28A9060076ED3A /* LoopMenuUpnow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoopMenuUpnow.caf; sourceTree = "<group>"; };
+		9838E4A51B292BC00076ED3A /* MenuStarRush.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MenuStarRush.caf; sourceTree = "<group>"; };
+		9838E4E61B2C88340076ED3A /* HelpScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpScene.swift; path = ../HelpScene.swift; sourceTree = "<group>"; };
+		98A74D131B434B8000DF87DB /* LightningAnimation.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = LightningAnimation.atlas; sourceTree = "<group>"; };
+		98A74D171B43571500DF87DB /* HowToPlayInstructions.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = HowToPlayInstructions.atlas; sourceTree = "<group>"; };
+		98BEE6021B17712B0076A376 /* Star Rush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Rush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BEE6061B17712B0076A376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98BEE6071B17712B0076A376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98BEE6091B17712B0076A376 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		98BEE60B1B17712B0076A376 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		98BEE60D1B17712B0076A376 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		98BEE6101B17712B0076A376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98BEE6121B17712B0076A376 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98BEE6151B17712B0076A376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		98BEE61B1B17712B0076A376 /* Star RushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star RushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BEE6201B17712B0076A376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98BEE6211B17712B0076A376 /* Star_RushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_RushTests.swift; sourceTree = "<group>"; };
+		98BEE62B1B1771E00076A376 /* InGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InGameScene.swift; path = ../InGameScene.swift; sourceTree = "<group>"; };
+		98BEE62D1B1771F60076A376 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenu.swift; path = ../MainMenu.swift; sourceTree = "<group>"; };
+		98CC78611B9B98EC006FF54D /* BlackholeAnimations.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BlackholeAnimations.atlas; sourceTree = "<group>"; };
+		98CC78631B9B98F4006FF54D /* BlackholeAnimationsIphone6Plus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BlackholeAnimationsIphone6Plus; sourceTree = "<group>"; };
+		98CC78651B9B98FE006FF54D /* BlackholeHorizontalAnimation.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BlackholeHorizontalAnimation.atlas; sourceTree = "<group>"; };
+		98CC78671B9B9907006FF54D /* BlackholeHorizontalAnimationIphone6Plus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BlackholeHorizontalAnimationIphone6Plus; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98BEE5FF1B17712B0076A376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BEE6181B17712B0076A376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9838E4A01B27D3E30076ED3A /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				9838E4A51B292BC00076ED3A /* MenuStarRush.caf */,
+				9838E4A31B28A9060076ED3A /* LoopMenuUpnow.caf */,
+				9838E4A11B27D4030076ED3A /* Upnow.caf */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		98BEE5F91B17712B0076A376 = {
+			isa = PBXGroup;
+			children = (
+				98BEE6041B17712B0076A376 /* Star Rush */,
+				98BEE61E1B17712B0076A376 /* Star RushTests */,
+				98BEE6031B17712B0076A376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98BEE6031B17712B0076A376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98BEE6021B17712B0076A376 /* Star Rush.app */,
+				98BEE61B1B17712B0076A376 /* Star RushTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98BEE6041B17712B0076A376 /* Star Rush */ = {
+			isa = PBXGroup;
+			children = (
+				98BEE62F1B17720A0076A376 /* Resources */,
+				98BEE6071B17712B0076A376 /* AppDelegate.swift */,
+				98BEE6091B17712B0076A376 /* GameScene.sks */,
+				98BEE60D1B17712B0076A376 /* GameViewController.swift */,
+				98BEE60B1B17712B0076A376 /* GameScene.swift */,
+				98BEE62D1B1771F60076A376 /* MainMenu.swift */,
+				9838E4E61B2C88340076ED3A /* HelpScene.swift */,
+				98BEE62B1B1771E00076A376 /* InGameScene.swift */,
+				98BEE60F1B17712B0076A376 /* Main.storyboard */,
+				98BEE6121B17712B0076A376 /* Images.xcassets */,
+				98BEE6141B17712B0076A376 /* LaunchScreen.xib */,
+				98BEE6051B17712B0076A376 /* Supporting Files */,
+			);
+			path = "Star Rush";
+			sourceTree = "<group>";
+		};
+		98BEE6051B17712B0076A376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98BEE6061B17712B0076A376 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98BEE61E1B17712B0076A376 /* Star RushTests */ = {
+			isa = PBXGroup;
+			children = (
+				98BEE6211B17712B0076A376 /* Star_RushTests.swift */,
+				98BEE61F1B17712B0076A376 /* Supporting Files */,
+			);
+			path = "Star RushTests";
+			sourceTree = "<group>";
+		};
+		98BEE61F1B17712B0076A376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98BEE6201B17712B0076A376 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98BEE62F1B17720A0076A376 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9838E4A01B27D3E30076ED3A /* Music */,
+				98BEE6321B1772720076A376 /* Animations */,
+				98BEE6311B1772630076A376 /* Sfx */,
+				98BEE6301B17724C0076A376 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98BEE6301B17724C0076A376 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		98BEE6311B1772630076A376 /* Sfx */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sfx;
+			sourceTree = "<group>";
+		};
+		98BEE6321B1772720076A376 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				98CC78671B9B9907006FF54D /* BlackholeHorizontalAnimationIphone6Plus */,
+				98CC78651B9B98FE006FF54D /* BlackholeHorizontalAnimation.atlas */,
+				98CC78631B9B98F4006FF54D /* BlackholeAnimationsIphone6Plus */,
+				98CC78611B9B98EC006FF54D /* BlackholeAnimations.atlas */,
+				98A74D171B43571500DF87DB /* HowToPlayInstructions.atlas */,
+				98A74D131B434B8000DF87DB /* LightningAnimation.atlas */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98BEE6011B17712B0076A376 /* Star Rush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98BEE6251B17712B0076A376 /* Build configuration list for PBXNativeTarget "Star Rush" */;
+			buildPhases = (
+				98BEE5FE1B17712B0076A376 /* Sources */,
+				98BEE5FF1B17712B0076A376 /* Frameworks */,
+				98BEE6001B17712B0076A376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Star Rush";
+			productName = "Star Rush";
+			productReference = 98BEE6021B17712B0076A376 /* Star Rush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98BEE61A1B17712B0076A376 /* Star RushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98BEE6281B17712B0076A376 /* Build configuration list for PBXNativeTarget "Star RushTests" */;
+			buildPhases = (
+				98BEE6171B17712B0076A376 /* Sources */,
+				98BEE6181B17712B0076A376 /* Frameworks */,
+				98BEE6191B17712B0076A376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98BEE61D1B17712B0076A376 /* PBXTargetDependency */,
+			);
+			name = "Star RushTests";
+			productName = "Star RushTests";
+			productReference = 98BEE61B1B17712B0076A376 /* Star RushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98BEE5FA1B17712B0076A376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Moonwalk Studios";
+				TargetAttributes = {
+					98BEE6011B17712B0076A376 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					98BEE61A1B17712B0076A376 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 98BEE6011B17712B0076A376;
+					};
+				};
+			};
+			buildConfigurationList = 98BEE5FD1B17712B0076A376 /* Build configuration list for PBXProject "Star Rush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98BEE5F91B17712B0076A376;
+			productRefGroup = 98BEE6031B17712B0076A376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98BEE6011B17712B0076A376 /* Star Rush */,
+				98BEE61A1B17712B0076A376 /* Star RushTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98BEE6001B17712B0076A376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CC78621B9B98EC006FF54D /* BlackholeAnimations.atlas in Resources */,
+				98A74D181B43571500DF87DB /* HowToPlayInstructions.atlas in Resources */,
+				9838E4A21B27D4040076ED3A /* Upnow.caf in Resources */,
+				98BEE6161B17712B0076A376 /* LaunchScreen.xib in Resources */,
+				9838E4A61B292BC00076ED3A /* MenuStarRush.caf in Resources */,
+				98BEE6131B17712B0076A376 /* Images.xcassets in Resources */,
+				9838E4A41B28A9060076ED3A /* LoopMenuUpnow.caf in Resources */,
+				98A74D141B434B8000DF87DB /* LightningAnimation.atlas in Resources */,
+				98CC78661B9B98FE006FF54D /* BlackholeHorizontalAnimation.atlas in Resources */,
+				98CC78641B9B98F4006FF54D /* BlackholeAnimationsIphone6Plus in Resources */,
+				98BEE60A1B17712B0076A376 /* GameScene.sks in Resources */,
+				98BEE6111B17712B0076A376 /* Main.storyboard in Resources */,
+				98CC78681B9B9907006FF54D /* BlackholeHorizontalAnimationIphone6Plus in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BEE6191B17712B0076A376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98BEE5FE1B17712B0076A376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BEE62E1B1771F60076A376 /* MainMenu.swift in Sources */,
+				9838E4E71B2C88340076ED3A /* HelpScene.swift in Sources */,
+				98BEE60C1B17712B0076A376 /* GameScene.swift in Sources */,
+				98BEE60E1B17712B0076A376 /* GameViewController.swift in Sources */,
+				98BEE6081B17712B0076A376 /* AppDelegate.swift in Sources */,
+				98BEE62C1B1771E00076A376 /* InGameScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BEE6171B17712B0076A376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98BEE6221B17712B0076A376 /* Star_RushTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98BEE61D1B17712B0076A376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98BEE6011B17712B0076A376 /* Star Rush */;
+			targetProxy = 98BEE61C1B17712B0076A376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98BEE60F1B17712B0076A376 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98BEE6101B17712B0076A376 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98BEE6141B17712B0076A376 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98BEE6151B17712B0076A376 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98BEE6231B17712B0076A376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98BEE6241B17712B0076A376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98BEE6261B17712B0076A376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Star Rush/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98BEE6271B17712B0076A376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Star Rush/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98BEE6291B17712B0076A376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Star RushTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Star Rush.app/Star Rush";
+			};
+			name = Debug;
+		};
+		98BEE62A1B17712B0076A376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Star RushTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Star Rush.app/Star Rush";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98BEE5FD1B17712B0076A376 /* Build configuration list for PBXProject "Star Rush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BEE6231B17712B0076A376 /* Debug */,
+				98BEE6241B17712B0076A376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98BEE6251B17712B0076A376 /* Build configuration list for PBXNativeTarget "Star Rush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BEE6261B17712B0076A376 /* Debug */,
+				98BEE6271B17712B0076A376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98BEE6281B17712B0076A376 /* Build configuration list for PBXNativeTarget "Star RushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BEE6291B17712B0076A376 /* Debug */,
+				98BEE62A1B17712B0076A376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98BEE5FA1B17712B0076A376 /* Project object */;
+}
